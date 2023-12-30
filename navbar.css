@@ -1,3 +1,38 @@
+.socialLinks {
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-twitter {
+  color: black;
+}
+
+.fa {
+  font-size: 30px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 7px 1px;
+}
+
+.fa-facebook {
+  color: black;
+}
+
+.fa-instagram {
+  color: black;
+  padding: 0;
+}
+
+.fa-youtube {
+  color: black;
+  padding: 0;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
 /*---Scroll to top button---*/
 
 #myBtn {
